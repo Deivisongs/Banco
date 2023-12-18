@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(16, 0, 29);
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 50px;
+}
+.saldo{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+}
+.sifrao{
+    margin: 10px 10px 0 0;
+    color: rgb(0, 255, 170);
+}
+.vlrSaldo{
+    font-size: 60px;
+}
+
+.inputUser{
+    padding: 10px;
+}
+.insere{
+    width: 70vw;
+    max-width: 400px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(38, 0, 71);
+    background-color: rgb(21, 0, 39);
+}
+.insere:focus{
+    outline: 0;
+}
+
+.buttons{
+    padding: 10px;
+    display: flex;
+    gap: 5vw;
+}
+.buttons button{
+    width: 40vw;
+    max-width: 200px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(16, 0, 29);
+    background-color: white;
+}
+.buttons button:hover{
+    background-color: rgb(219, 219, 219);
+}
+
